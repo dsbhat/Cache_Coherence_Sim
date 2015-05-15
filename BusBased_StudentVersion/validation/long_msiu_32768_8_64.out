@@ -1,0 +1,59 @@
+===== SP15 506 BUS BASED CACHE Configuration =====
+L1_SIZE:		65536
+L1_ASSOC:		8
+L1_BLOCKSIZE:		64
+NUMBER OF PROCESSORS:	4
+COHERENCE PROTOCOL:	MSI w/BusUpgr 
+TRACE FILE:		canneal.04t.longTrace
+============ Simulation results (Cache 0) ============ 
+1 . number of reads:                      112661
+2 . number of read misses:                6044
+3 . number of writes:                     11942
+4 . number of write misses:               39
+5 . total miss rate:                      0.048819
+6 . number of writebacks:                 573
+7 . number of memory transactions:        6656
+8 . number of cache-to-cache transfers:   0
+9 . number of BusRds issued:              6044
+10. number of BusWrs issued:              0
+11. number of BusRdXs issued:             39
+12. number of BusUpgrs issued:            677
+============ Simulation results (Cache 1) ============ 
+1 . number of reads:                      110830
+2 . number of read misses:                6063
+3 . number of writes:                     11710
+4 . number of write misses:               41
+5 . total miss rate:                      0.049812
+6 . number of writebacks:                 555
+7 . number of memory transactions:        6659
+8 . number of cache-to-cache transfers:   0
+9 . number of BusRds issued:              6063
+10. number of BusWrs issued:              0
+11. number of BusRdXs issued:             41
+12. number of BusUpgrs issued:            659
+============ Simulation results (Cache 2) ============ 
+1 . number of reads:                      114938
+2 . number of read misses:                6044
+3 . number of writes:                     12383
+4 . number of write misses:               42
+5 . total miss rate:                      0.047800
+6 . number of writebacks:                 587
+7 . number of memory transactions:        6673
+8 . number of cache-to-cache transfers:   0
+9 . number of BusRds issued:              6044
+10. number of BusWrs issued:              0
+11. number of BusRdXs issued:             42
+12. number of BusUpgrs issued:            683
+============ Simulation results (Cache 3) ============ 
+1 . number of reads:                      113428
+2 . number of read misses:                6070
+3 . number of writes:                     12108
+4 . number of write misses:               39
+5 . total miss rate:                      0.048663
+6 . number of writebacks:                 570
+7 . number of memory transactions:        6679
+8 . number of cache-to-cache transfers:   0
+9 . number of BusRds issued:              6070
+10. number of BusWrs issued:              0
+11. number of BusRdXs issued:             39
+12. number of BusUpgrs issued:            675
